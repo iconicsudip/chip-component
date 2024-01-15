@@ -1,0 +1,39 @@
+.user_box {
+    height: 50px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user_box:hover {
+    background: #ededed;
+
+}
+
+.user_box * {
+    margin: 0;
+}
+
+.user_box .user_details {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    gap: var(--gap)
+}
+
+.user_box .user_details img {
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user_email {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 500;
+}

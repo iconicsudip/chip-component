@@ -1,0 +1,45 @@
+.userbox_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+    padding: 4px;
+    background: #adaaaa;
+    border-radius: 23px;
+    cursor: pointer;
+
+    gap: calc(var(--gap) + 4px);
+}
+
+.userbox {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    height: 100%;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.userbox img {
+    width: 32px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.userbox * {
+    margin: 0
+}
+
+.userbox_wrapper svg {
+    margin-right: 4px;
+    color: black;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.25s;
+}
+
+.userbox_wrapper svg:hover {
+    background: #c4c4c4;
+}
