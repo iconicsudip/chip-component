@@ -78,4 +78,14 @@
     background: white;
     border-radius: 4px;
     box-shadow: 2px 2px 13px 0px #111111;
+    height: 300px;
+    overflow: auto;
+}
+.chipinput_list::-webkit-scrollbar {
+    width: 4px;
+    background-color: #ffffff;
+}
+.chipinput_list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #7487ff;
 }

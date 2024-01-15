@@ -3,26 +3,8 @@ import { UserBox } from "../UserBox"
 import './chipinput.css'
 import { T_UserBoxProps } from "../../types/userbox.types"
 import { User } from "../User";
-const userList = [
-    {
-        _id: "1",
-        avatar: 'https://material-ui.com/static/images/avatar/1.jpg',
-        name: "John Doe",
-        email: "john.doe@gmail.com"
-    },
-    {
-        _id: "2",
-        avatar: 'https://material-ui.com/static/images/avatar/2.jpg',
-        name: "Martin Doe",
-        email: "martin.doe@gmail.com"
-    },
-    {
-        _id: "3",
-        avatar: 'https://material-ui.com/static/images/avatar/3.jpg',
-        name: "Jane Doe",
-        email: "jane.doe@gmail.com"
-    }
-]
+import USER_LIST from "../../user-data.json";
+const userList = USER_LIST
 export default function ChipInput() {
     const [selectedUsers, setSelectedUsers] = useState<Array<T_UserBoxProps> | []>([]);
     const inputRef = useRef(null);

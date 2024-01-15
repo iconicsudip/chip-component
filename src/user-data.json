@@ -1,0 +1,45 @@
+[
+    {
+        "_id": "1",
+        "avatar": "https://material-ui.com/static/images/avatar/1.jpg",
+        "name": "John Doe",
+        "email": "john.doe@gmail.com"
+    },
+    {
+        "_id": "2",
+        "avatar": "https://material-ui.com/static/images/avatar/2.jpg",
+        "name": "Martin Doe",
+        "email": "martin.doe@gmail.com"
+    },
+    {
+        "_id": "3",
+        "avatar": "https://material-ui.com/static/images/avatar/3.jpg",
+        "name": "Jane Doe",
+        "email": "jane.doe@gmail.com"
+    },
+    {
+        "_id": "4",
+        "avatar": "https://material-ui.com/static/images/avatar/4.jpg",
+        "name": "Jenny Doe",
+        "email": "jenny.doe@gmail.com"
+    },
+    {
+        "_id": "5",
+        "avatar": "https://material-ui.com/static/images/avatar/5.jpg",
+        "name": "James Doe",
+        "email": "james.doe@gmail.com"
+    },
+    {
+        "_id": "6",
+        "avatar": "https://material-ui.com/static/images/avatar/6.jpg",
+        "name": "Jesse Doe",
+        "email": "jesse.doe@gmail.com"
+    },
+    {
+        "_id": "7",
+        "avatar": "https://material-ui.com/static/images/avatar/7.jpg",
+        "name": "Jared Doe",
+        "email": "jared.doe@gmail.com"
+    }
+
+]
