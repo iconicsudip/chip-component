@@ -95,7 +95,11 @@ export default function ChipInput() {
                     />
                     {showChipList &&
                         <div className="chipinput_list">
-                            {currentUserList?.map((user) => {
+                            {currentUserList.sort(
+                                (a: T_UserBoxProps, b: T_UserBoxProps) => {
+                                    return a._id.localeCompare(b._id);
+                                }
+                            )?.map((user) => {
                                 return <div onClick={() => handleSelectUser(user)}><User key={user?._id} user={user}  /></div>
                             })}
                         </div>
